@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/style.css">
+  <title>Unihokey Website</title>
+</head>
+<body>
+    <header>
+        <h1>Unihockey</h1>
+    </header>
+
+    <nav>
+      <ul>
+          <li><a href="muttenz.html">Muttenz</a></li>
+          <li><a href="oberwil.html">Oberwil</a></li>
+          <li><a href="Karten.html">Karten</a></li>
+          <button id="loginBtn">Login</button>
+      </ul>
+  </nav>
+
+  <div id="loginModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Login</h2>
+      <form id="loginForm">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="password">Passwort:</label>
+        <input type="password" id="password" name="password" required>
+        <input type="submit" value="Login">
+      </form>
+    </div>
+  </div>
+
+  <div id="content">
+    <h2>Willkommen auf meiner Webseite!</h2>
+    <form action="https://gibm.becknet.ch/formular/formular.php" method="POST">
+
+      <div>
+   
+          <label>Anrede *</label><br>
+   
+          <input type="radio"
+           name="anrede"
+           id="frau"
+           value="Frau"
+           required>
+           <label for="frau">Frau</label>
+   
+          <input type="radio"
+           name="anrede"
+           id="herr"
+           value="Herr">
+           <label for="herr">Herr</label>
+   
+          <input type="radio"
+           name="anrede"
+           id="anderes"
+           value="Anderes">
+           <label for="anderes">Anderes</label>
+   
+      </div>
+   
+      <div>
+   
+          <label for="vorname">Vorname *</label><br>
+   
+          <input type="text"
+           id="vorname"
+           name="vorname"
+           minlength="1"
+           maxlength="100"
+           required />
+   
+      </div>
+   
+      <div>
+   
+          <label for="nachname">Nachname *</label><br>
+   
+          <input type="text" id="nachname" name="nachname" minlength="1" maxlength="100" required />
+   
+      </div>
+   
+      <div>
+   
+          <label for="strasse">Strasse *</label><br>
+   
+          <input type="text" id="strasse" name="strasse" maxlength="100" required />
+   
+      </div>
+
+      <div>
+          <div>
+              <label for="plz">PLZ*/Ort</label><br>
+              <input type="text" id="plz" name="plz" pattern="^[1-9][0-9]{3}$" required>
+              <input type="text" id="ort" name="ort" maxlength="100">
+          </div>
+      </div>
+
+      <div>
+
+          <label for="email">Email *</label><br>
+   
+          <input type="email" id="email" name="email" maxlength="100" required />
+   
+      </div>
+   
+      <div>
+   
+          <label for="nachricht">Nachricht</label><br>
+   
+          <textarea name="nachricht" id="nachricht" cols="30" rows="10"></textarea>
+   
+      </div>
+   
+      <div>
+   
+          <input type="submit" value="Senden">
+   
+          <input type="reset" value="Löschen">
+   
+      </div>
+   
+   </form>
+    </div>
+  </div>
+
+    
+    <aside>
+        <h2>Regeln</h2>
+        <p>Unihockey, auch bekannt als Floorball, ist ein schnelles und aufregendes Hallenhockeyspiel. Die Regeln dienen der Fairness, Sicherheit und einem reibungslosen Ablauf des Spiels. Zwei Mannschaften mit je fünf Feldspielern und einem Torwart treten gegeneinander an. Das Ziel ist es, mehr Tore als die Gegner zu erzielen. Der Ball wird mit dem Stock kontrolliert, Körperkontakt ist nicht erlaubt. Das Spiel startet mit einem Bully in der Mitte des Spielfelds. Es gibt Freischläge und Strafen für Regelverstöße. Der Torwart hat spezielle Rechte und Pflichten. Der Torraum ist für ihn reserviert. Es ist wichtig, sich über spezifische Regeln zu informieren, da sie je nach Liga oder Turnier variieren können. Unihockey bietet spannende Action und ist für alle Hockeysportfans ein Muss!</p>
+    </aside>
+    
+    <main>
+        <h2>Langer Text</h2>
+        <p>
+          üher war es für mich schwierig, einen Sport zu finden, der mir gefiel. Doch mit Unihockey entfachte sich meine Leidenschaft. Ich begann als Feldspieler in der U12 und entwickelte mich im Laufe der Zeit zum Goali. Bei den Herren in der 4. Liga in Muttenz war ich zwar aktiv, doch fühlte ich mich unterfordert. Es schien, als ginge es vielen Spielern in Oberwil ähnlich wie mir.
+
+Glücklicherweise änderte sich meine Situation, als ich in Oberwil gefördert wurde. Ich bekam die Chance, mein Talent weiterzuentwickeln und mein Spiel auf ein neues Level zu heben. Es war eine großartige Gelegenheit, meinen Fähigkeiten als Goali freien Lauf zu lassen und mich mit anderen talentierten Spielern zu messen.
+
+Durch das Training und die Wettkämpfe in Oberwil konnte ich meine Fertigkeiten stetig verbessern. Die Herausforderungen auf dem Spielfeld waren anspruchsvoller, und ich musste hart an meiner Technik, Reflexen und Strategie arbeiten. Doch die Unterstützung meines Teams und meiner Trainer motivierte mich, mich ständig zu verbessern.
+
+Mit der Zeit fand ich meinen Platz in der Mannschaft und wurde zu einem wichtigen Bestandteil des Teams. Meine Leistungen als Goali wurden beachtet, und ich erhielt Anerkennung für meine Arbeit. Es war ein erfüllendes Gefühl, meine Leidenschaft für Unihockey mit anderen zu teilen und gemeinsam auf dem Spielfeld zu kämpfen.</p>
+    </main>
+    
+    <footer>
+      <a href="https://www.instagram.com/swissunihockey/" target="_blank">SwissUnihockeey</a>
+    </footer>
+</body>
+</html>
+
+</html>
